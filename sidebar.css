@@ -1,0 +1,38 @@
+/*sidebar*/
+.top.ui.menu {
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2)
+}
+
+.top.ui.menu .item {
+  padding: 20px;
+}
+
+.top.ui.secondary.menu .dropdown.item:hover, .top.ui.secondary.menu .link.item:hover, .top.ui.secondary.menu a.item:hover {
+  background: none;
+}
+
+.ui.sidebar ~ .fixed, .ui.sidebar ~ .pusher {
+  width: 100%;
+}
+
+.ui.visible.right.sidebar ~ .fixed, .ui.visible.right.sidebar ~ .pusher {
+  /*width: calc(100% - 200px);*/
+}
+
+/*shapes*/
+.side {
+	background-color: chartreuse ;
+
+}
+
+
+.ui.shape{
+		width:100%;
+		background-color: chartreuse;
+		height:100%;
+}
+
+.ui.labeled.input{
+	width:100%;
+	padding-bottom:5px;
+}
